@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: templates
+  description: Templates for the Developer Hub
+spec:
+  targets:
+    - ./apis.yaml
+    - ./components.yaml
+    - ./resources.yaml
