@@ -5,6 +5,4 @@ metadata:
   description: Templates for the Developer Hub
 spec:
   targets:
-    - ./apis.yaml
-    - ./components.yaml
-    - ./resources.yaml
+    - ./templates/go-backend/template.yaml
